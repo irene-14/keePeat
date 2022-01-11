@@ -16,6 +16,9 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
 
     @IBOutlet weak var btnDelete: UIButton!
 
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+
     var classification: String!
     var probability: String = "0"
 
@@ -25,14 +28,14 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
         // deshabilitamos el botón de procesar
         btnProcess.isOpaque = true
         btnProcess.isEnabled = false
-        // ocultamos el botón de eliminar la foto
-        btnDelete.isHidden = true
+
+        // inicializar las vistas
+        view1.alpha = 1 // info visible
+        view2.alpha = 0 // foto no visible
     }
     
     // metodo para subir una foto
     @IBAction func uploadPhoto(_ sender: UIButton) {
-        
-        
         let prompt = UIAlertController(title: "Sube tu imagen",
                                        message: "",
                                        preferredStyle: .actionSheet)
@@ -87,8 +90,9 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
         btnProcess.isOpaque = false
         btnProcess.isEnabled = true
         
-        // mostramos el botón de eliminar la foto
-        btnDelete.isHidden = false
+        // cambiamos las vistas
+        view1.alpha = 0 // info no visible
+        view2.alpha = 1 // foto visible
     }
     
     // hace algo si el usuario cancela el subir la foto
@@ -105,8 +109,9 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
         btnProcess.isOpaque = true
         btnProcess.isEnabled = false
         
-        // ocultamos el botón de eliminar la foto
-        btnDelete.isHidden = true
+        // inicializar las vistas
+        view1.alpha = 1 // info visible
+        view2.alpha = 0 // foto no visible
     }
     
     

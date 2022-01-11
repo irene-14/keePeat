@@ -7,32 +7,26 @@
 
 import UIKit
 
-class ViewControllerHome: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewControllerHome: UIViewController {
+    
+    @IBOutlet weak var navItem: UINavigationItem!
+    
+    @IBOutlet weak var view1: UIView!
+
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var viewContainer: UIView!
 
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var tableView: UITableView!
-
-    var listCells = [Cell(cellImg: UIImage(named: "location-spain"), cellLocation: "Spain", cellUsername: "irenita14"),
-                     Cell(cellImg: UIImage(named: "location-spain"), cellLocation: "Spain", cellUsername: "irenita14"),
-                     Cell(cellImg: UIImage(named: "location-spain"), cellLocation: "Russia", cellUsername: "987juan"),
-                     Cell(cellImg: UIImage(named: "location-spain"), cellLocation: "Italy", cellUsername: "gulixx"),
-                     Cell(cellImg: UIImage(named: "location-spain"), cellLocation: "Georgia", cellUsername: "ana-rey"),]
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "logo")
+        let imageView = UIImageView(image:logo)
+        imageView.contentMode = .scaleAspectFit
+        self.navItem.titleView = imageView
 
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "idCell")!
-        cell.textLabel?.text = listCells[indexPath.row].cellLocation
-        cell.detailTextLabel?.text = listCells[indexPath.row].cellUsername
-        cell.imageView?.image = listCells[indexPath.row].cellImg
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listCells.count
+        scrollView.contentSize = viewContainer.frame.size
+
     }
 
 

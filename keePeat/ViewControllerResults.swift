@@ -27,7 +27,7 @@ class ViewControllerResults: UIViewController {
             btnPublish.isHidden = false
 
         } else {
-            lbClassification.text = "¡Vaya! Esta vez no has dado con una turbera. Vuelve a la página de Inicio para aprender más sobre ellas."
+            lbClassification.text = "¡Vaya! Parece que esta vez no has dado con una turbera. Vuelve a la página de Inicio para aprender más sobre ellas."
             btnPublish.isHidden = true
         }
     }
