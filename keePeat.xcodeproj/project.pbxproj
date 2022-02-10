@@ -20,13 +20,17 @@
 		3A86AC40278A174E006B4CFF /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86AC3F278A174E006B4CFF /* ViewControllerHome.swift */; };
 		3A95B0D22787BEAB00414A97 /* ViewControllerDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95B0D12787BEAB00414A97 /* ViewControllerDetect.swift */; };
 		3A95B0D42787C3B000414A97 /* turberaClasificador.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A95B0D32787C3B000414A97 /* turberaClasificador.mlmodel */; };
+		3AB25BAD278E3D5800E9A36D /* KeychainSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB25BAC278E3D5700E9A36D /* KeychainSecurity.swift */; };
+		3AB25BB0278E469700E9A36D /* KeyChainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB25BAF278E469700E9A36D /* KeyChainError.swift */; };
+		3AB25BB2278E612C00E9A36D /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB25BB1278E612C00E9A36D /* ViewControllerLogin.swift */; };
+		3AB25BB4278E659E00E9A36D /* ViewControllerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB25BB3278E659E00E9A36D /* ViewControllerUser.swift */; };
+		3AB25BB6278E686D00E9A36D /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB25BB5278E686D00E9A36D /* ViewControllerSettings.swift */; };
 		3AECCEE92788EB2400B6E3D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECCEE82788EB2400B6E3D7 /* Extensions.swift */; };
 		3AF9634A278CE9DE00348748 /* ViewControllerLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF96349278CE9DE00348748 /* ViewControllerLocations.swift */; };
 		3AF9634C278CEA0700348748 /* ViewControllerLocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9634B278CEA0700348748 /* ViewControllerLocationsList.swift */; };
 		3AF9AE2D2788F3C100FB1AAB /* ViewControllerResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9AE2C2788F3C100FB1AAB /* ViewControllerResults.swift */; };
 		3AF9AE2F2788F91000FB1AAB /* ViewControllerLocationsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9AE2E2788F91000FB1AAB /* ViewControllerLocationsMap.swift */; };
 		3AF9AE312788FA9A00FB1AAB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9AE302788FA9A00FB1AAB /* Location.swift */; };
-		3AF9AE332789176C00FB1AAB /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9AE322789176C00FB1AAB /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,13 +49,17 @@
 		3A86AC3F278A174E006B4CFF /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		3A95B0D12787BEAB00414A97 /* ViewControllerDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetect.swift; sourceTree = "<group>"; };
 		3A95B0D32787C3B000414A97 /* turberaClasificador.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = turberaClasificador.mlmodel; sourceTree = "<group>"; };
+		3AB25BAC278E3D5700E9A36D /* KeychainSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSecurity.swift; sourceTree = "<group>"; };
+		3AB25BAF278E469700E9A36D /* KeyChainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainError.swift; sourceTree = "<group>"; };
+		3AB25BB1278E612C00E9A36D /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		3AB25BB3278E659E00E9A36D /* ViewControllerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUser.swift; sourceTree = "<group>"; };
+		3AB25BB5278E686D00E9A36D /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
 		3AECCEE82788EB2400B6E3D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3AF96349278CE9DE00348748 /* ViewControllerLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLocations.swift; sourceTree = "<group>"; };
 		3AF9634B278CEA0700348748 /* ViewControllerLocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLocationsList.swift; sourceTree = "<group>"; };
 		3AF9AE2C2788F3C100FB1AAB /* ViewControllerResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResults.swift; sourceTree = "<group>"; };
 		3AF9AE2E2788F91000FB1AAB /* ViewControllerLocationsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLocationsMap.swift; sourceTree = "<group>"; };
 		3AF9AE302788FA9A00FB1AAB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		3AF9AE322789176C00FB1AAB /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A50CF6D2790AF9200D31AC4 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A72FE36276976F800DC1895 /* ViewController.swift */,
+				3AB25BB5278E686D00E9A36D /* ViewControllerSettings.swift */,
+				3AB25BB3278E659E00E9A36D /* ViewControllerUser.swift */,
+				3AF9634B278CEA0700348748 /* ViewControllerLocationsList.swift */,
+				3AF96349278CE9DE00348748 /* ViewControllerLocations.swift */,
+				3A86AC3F278A174E006B4CFF /* ViewControllerHome.swift */,
+				3A6D644F278CCA04003FAB07 /* ViewControllerRegister.swift */,
+				3A86AC3D278A1662006B4CFF /* ViewControllerProfile.swift */,
+				3AB25BB1278E612C00E9A36D /* ViewControllerLogin.swift */,
+				3AF9AE2E2788F91000FB1AAB /* ViewControllerLocationsMap.swift */,
+				3AF9AE2C2788F3C100FB1AAB /* ViewControllerResults.swift */,
+				3A95B0D12787BEAB00414A97 /* ViewControllerDetect.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 		3A57A732278A4509005A8D74 /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,27 +121,28 @@
 		3A72FE31276976F800DC1895 /* keePeat */ = {
 			isa = PBXGroup;
 			children = (
+				3A50CF6D2790AF9200D31AC4 /* viewControllers */,
+				3AB25BAE278E3D6000E9A36D /* utilities */,
 				3A57A732278A4509005A8D74 /* classes */,
 				3A72FE32276976F800DC1895 /* AppDelegate.swift */,
 				3A72FE34276976F800DC1895 /* SceneDelegate.swift */,
-				3A72FE36276976F800DC1895 /* ViewController.swift */,
 				3A72FE38276976F800DC1895 /* Main.storyboard */,
-				3AF9634B278CEA0700348748 /* ViewControllerLocationsList.swift */,
-				3AF96349278CE9DE00348748 /* ViewControllerLocations.swift */,
-				3A86AC3F278A174E006B4CFF /* ViewControllerHome.swift */,
-				3A6D644F278CCA04003FAB07 /* ViewControllerRegister.swift */,
-				3A86AC3D278A1662006B4CFF /* ViewControllerProfile.swift */,
-				3AF9AE2E2788F91000FB1AAB /* ViewControllerLocationsMap.swift */,
-				3AF9AE2C2788F3C100FB1AAB /* ViewControllerResults.swift */,
-				3A95B0D12787BEAB00414A97 /* ViewControllerDetect.swift */,
-				3AECCEE82788EB2400B6E3D7 /* Extensions.swift */,
 				3A72FE3B276976F900DC1895 /* Assets.xcassets */,
 				3A72FE3D276976F900DC1895 /* LaunchScreen.storyboard */,
 				3A72FE40276976F900DC1895 /* Info.plist */,
 				3A95B0D32787C3B000414A97 /* turberaClasificador.mlmodel */,
-				3AF9AE322789176C00FB1AAB /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = keePeat;
+			sourceTree = "<group>";
+		};
+		3AB25BAE278E3D6000E9A36D /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3AB25BAC278E3D5700E9A36D /* KeychainSecurity.swift */,
+				3AB25BAF278E469700E9A36D /* KeyChainError.swift */,
+				3AECCEE82788EB2400B6E3D7 /* Extensions.swift */,
+			);
+			path = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,21 +216,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB25BB2278E612C00E9A36D /* ViewControllerLogin.swift in Sources */,
 				3A6D6450278CCA04003FAB07 /* ViewControllerRegister.swift in Sources */,
 				3A57A734278A451E005A8D74 /* User.swift in Sources */,
 				3A72FE37276976F800DC1895 /* ViewController.swift in Sources */,
+				3AB25BAD278E3D5800E9A36D /* KeychainSecurity.swift in Sources */,
 				3AF9634A278CE9DE00348748 /* ViewControllerLocations.swift in Sources */,
-				3AF9AE332789176C00FB1AAB /* GoogLeNetPlaces.mlmodel in Sources */,
 				3AECCEE92788EB2400B6E3D7 /* Extensions.swift in Sources */,
 				3A95B0D22787BEAB00414A97 /* ViewControllerDetect.swift in Sources */,
 				3A95B0D42787C3B000414A97 /* turberaClasificador.mlmodel in Sources */,
 				3A86AC3E278A1663006B4CFF /* ViewControllerProfile.swift in Sources */,
 				3AF9AE312788FA9A00FB1AAB /* Location.swift in Sources */,
+				3AB25BB0278E469700E9A36D /* KeyChainError.swift in Sources */,
+				3AB25BB4278E659E00E9A36D /* ViewControllerUser.swift in Sources */,
 				3A86AC40278A174E006B4CFF /* ViewControllerHome.swift in Sources */,
 				3A57A736278A5726005A8D74 /* Cell.swift in Sources */,
 				3A72FE33276976F800DC1895 /* AppDelegate.swift in Sources */,
 				3A72FE35276976F800DC1895 /* SceneDelegate.swift in Sources */,
 				3AF9AE2D2788F3C100FB1AAB /* ViewControllerResults.swift in Sources */,
+				3AB25BB6278E686D00E9A36D /* ViewControllerSettings.swift in Sources */,
 				3AF9AE2F2788F91000FB1AAB /* ViewControllerLocationsMap.swift in Sources */,
 				3AF9634C278CEA0700348748 /* ViewControllerLocationsList.swift in Sources */,
 			);
@@ -370,7 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -398,7 +430,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

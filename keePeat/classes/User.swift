@@ -7,6 +7,19 @@
 
 import UIKit
 
-class User: NSObject {
-
+public struct User
+{
+    ///
+    public private(set) var name: String
+    ///
+    public private(set) var password: String
+    
+    /**
+ 
+    */
+    public init(named name: String, withPassword password: String)
+    {
+        self.name = name
+        self.password = password
+    }
 }
