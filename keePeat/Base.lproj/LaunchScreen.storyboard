@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="mAo-AN-OrT">
-                                <rect key="frame" x="0.0" y="234" width="375" height="198"/>
+                                <rect key="frame" x="32" y="233" width="311" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -30,6 +30,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="1568" height="387"/>
+        <image name="logo" width="1385" height="387"/>
     </resources>
 </document>

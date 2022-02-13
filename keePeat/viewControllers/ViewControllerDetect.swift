@@ -84,7 +84,14 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
         guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else {
             return
         }
+        
+        // carga la imagen en la vista
         imgViewFoto.image = image
+        
+        // guarda la imagen en la base de datos
+        if let pngRepresentation = image.pngData() {
+                UserDefaults.standard.set(pngRepresentation, forKey: "img")
+        }
         
         // permitimos pulsar el boton de procesar
         btnProcess.isOpaque = false

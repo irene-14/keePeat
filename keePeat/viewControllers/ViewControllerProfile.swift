@@ -16,7 +16,10 @@ class ViewControllerProfile: UIViewController {
         super.viewDidLoad()
         
         let defaults = UserDefaults.standard
-        lbName.text = "Hola " + defaults.string(forKey:"userName")!
+        
+        if defaults.bool(forKey: "loggedIn") {
+            lbName.text = "Hola " + defaults.string(forKey:"userName")!
+        }
 
     }
     /*

@@ -15,7 +15,7 @@ class ViewControllerSettings: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // el boton de logout solo esta si estas logueado
+        // el boton de logout solo aparece si estas logueado
         let defaults = UserDefaults.standard
         if !(defaults.bool(forKey:"loggedIn")) {
             btnLogout.isHidden = true

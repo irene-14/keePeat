@@ -37,10 +37,8 @@ class ViewControllerLocationsList: UIViewController, UITableViewDelegate, UITabl
         let cell = tableView.dequeueReusableCell(withIdentifier: "idCell")!
         cell.textLabel?.text = listCells[indexPath.row].cellLocation
         cell.detailTextLabel?.text = listCells[indexPath.row].cellUsername
-        cell.imageView?.image = listCells[indexPath.row].cellImg
+        cell.imageView?.image = listCells[indexPath.row].cellImg?.resize(size: CGSize(width: 40, height: 40))
 
-        // redimensionar imagen de la celda
-        //cell.imageView?.image?.renderingMode = CGSize(width: 20, height: 20)
         return cell
     }
     

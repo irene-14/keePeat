@@ -53,6 +53,9 @@ class ViewControllerLogin: UIViewController {
                     let defaults = UserDefaults.standard
                     defaults.setValue(true, forKey:"loggedIn")
                     defaults.setValue(searchUser.name, forKey: "userName")
+                    //let nextViewController = ViewControllerProfile()
+                    //self.navigationController?.pushViewController(nextViewController, animated: true)
+
                 }
                 else
                 {
