@@ -1,6 +1,5 @@
 //
 //  Extensions.swift
-//  coreMLDemo
 //
 //  Created by Irene Truchado Mazzoli on 15/12/21.
 //

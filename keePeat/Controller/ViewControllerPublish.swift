@@ -26,7 +26,6 @@ class ViewControllerPublish: UIViewController {
         let alert = UIAlertController(title: "¡Gracias por subir tu fotografía!", message: "Tu ayuda es fundamental para la preservación y restauración de las turberas.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
-
     }
     
     /*

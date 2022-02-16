@@ -13,15 +13,18 @@ class Location: NSObject, MKAnnotation {
     let title: String?
     let locationName: String?
     let coordinate: CLLocationCoordinate2D
+    let locationImage: UIImage?
 
     init(
       title: String?,
       locationName: String?,
-      coordinate: CLLocationCoordinate2D
+      coordinate: CLLocationCoordinate2D,
+      locationImage: UIImage?
     ) {
-      self.title = title
-      self.locationName = locationName
-      self.coordinate = coordinate
+        self.title = title
+        self.locationName = locationName
+        self.coordinate = coordinate
+        self.locationImage = locationImage
 
       super.init()
     }

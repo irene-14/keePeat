@@ -73,7 +73,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A50CF6D2790AF9200D31AC4 /* viewControllers */ = {
+		3A357D2627BD76FA009ACB93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A72FE34276976F800DC1895 /* SceneDelegate.swift */,
+				3A72FE32276976F800DC1895 /* AppDelegate.swift */,
+				3A72FE40276976F900DC1895 /* Info.plist */,
+				3A57A732278A4509005A8D74 /* classes */,
+				3AB25BAE278E3D6000E9A36D /* utilities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A357D2727BD7866009ACB93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A72FE3B276976F900DC1895 /* Assets.xcassets */,
+				3A72FE38276976F800DC1895 /* Main.storyboard */,
+				3A72FE3D276976F900DC1895 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A50CF6D2790AF9200D31AC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				3AB25BB5278E686D00E9A36D /* ViewControllerSettings.swift */,
@@ -89,7 +111,7 @@
 				3AF9AE2C2788F3C100FB1AAB /* ViewControllerResults.swift */,
 				3A95B0D12787BEAB00414A97 /* ViewControllerDetect.swift */,
 			);
-			path = viewControllers;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		3A57A732278A4509005A8D74 /* classes */ = {
@@ -121,16 +143,9 @@
 		3A72FE31276976F800DC1895 /* keePeat */ = {
 			isa = PBXGroup;
 			children = (
-				3A50CF6D2790AF9200D31AC4 /* viewControllers */,
-				3AB25BAE278E3D6000E9A36D /* utilities */,
-				3A57A732278A4509005A8D74 /* classes */,
-				3A72FE32276976F800DC1895 /* AppDelegate.swift */,
-				3A72FE34276976F800DC1895 /* SceneDelegate.swift */,
-				3A72FE38276976F800DC1895 /* Main.storyboard */,
-				3A72FE3B276976F900DC1895 /* Assets.xcassets */,
-				3A72FE3D276976F900DC1895 /* LaunchScreen.storyboard */,
-				3A72FE40276976F900DC1895 /* Info.plist */,
-				3A95B0D32787C3B000414A97 /* turberaClasificador.mlmodel */,
+				3A50CF6D2790AF9200D31AC4 /* Controller */,
+				3A357D2627BD76FA009ACB93 /* Model */,
+				3A357D2727BD7866009ACB93 /* View */,
 			);
 			path = keePeat;
 			sourceTree = "<group>";
@@ -141,6 +156,7 @@
 				3AB25BAC278E3D5700E9A36D /* KeychainSecurity.swift */,
 				3AB25BAF278E469700E9A36D /* KeyChainError.swift */,
 				3AECCEE82788EB2400B6E3D7 /* Extensions.swift */,
+				3A95B0D32787C3B000414A97 /* turberaClasificador.mlmodel */,
 			);
 			path = utilities;
 			sourceTree = "<group>";
