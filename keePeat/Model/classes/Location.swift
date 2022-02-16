@@ -10,18 +10,19 @@ import MapKit
 
 
 class Location: NSObject, MKAnnotation {
-    let title: String?
+    // static var locationId: Int?
+    let userName: String?
     let locationName: String?
     let coordinate: CLLocationCoordinate2D
     let locationImage: UIImage?
 
     init(
-      title: String?,
+      userName: String?,
       locationName: String?,
       coordinate: CLLocationCoordinate2D,
       locationImage: UIImage?
     ) {
-        self.title = title
+        self.userName = userName
         self.locationName = locationName
         self.coordinate = coordinate
         self.locationImage = locationImage

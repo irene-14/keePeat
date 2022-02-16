@@ -78,7 +78,6 @@
 			children = (
 				3A72FE34276976F800DC1895 /* SceneDelegate.swift */,
 				3A72FE32276976F800DC1895 /* AppDelegate.swift */,
-				3A72FE40276976F900DC1895 /* Info.plist */,
 				3A57A732278A4509005A8D74 /* classes */,
 				3AB25BAE278E3D6000E9A36D /* utilities */,
 			);
@@ -143,6 +142,7 @@
 		3A72FE31276976F800DC1895 /* keePeat */ = {
 			isa = PBXGroup;
 			children = (
+				3A72FE40276976F900DC1895 /* Info.plist */,
 				3A50CF6D2790AF9200D31AC4 /* Controller */,
 				3A357D2627BD76FA009ACB93 /* Model */,
 				3A357D2727BD7866009ACB93 /* View */,
