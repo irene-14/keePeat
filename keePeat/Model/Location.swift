@@ -30,7 +30,11 @@ class Location: NSObject, MKAnnotation {
       super.init()
     }
 
+    var title: String? {
+        return locationName
+    }
+    
     var subtitle: String? {
-      return locationName
+      return userName
     }
 }

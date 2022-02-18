@@ -66,10 +66,7 @@ extension UIImage {
                         x: 0,
                         y: 0,
                         width: imageWidth,
-                        height: imageHeight
-                    )
-                )
-            }
+                        height: imageHeight)) }
             else {
                 CVPixelBufferUnlockBaseAddress(_pxbuffer, flags);
                 return nil
@@ -78,7 +75,6 @@ extension UIImage {
             CVPixelBufferUnlockBaseAddress(_pxbuffer, flags);
             return _pxbuffer;
         }
-
         return nil
     }
 }
