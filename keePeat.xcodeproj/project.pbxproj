@@ -107,6 +107,7 @@
 		3A57A732278A4509005A8D74 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A3A3F1E27C1724B00408F27 /* BBDD.xcdatamodeld */,
 				3AF9AE302788FA9A00FB1AAB /* Location.swift */,
 				3ADB5E0C27C04A73009BB461 /* Publication.swift */,
 				3A57A733278A451E005A8D74 /* User.swift */,
@@ -120,7 +121,6 @@
 		3A72FE26276976F800DC1895 = {
 			isa = PBXGroup;
 			children = (
-				3A3A3F1E27C1724B00408F27 /* BBDD.xcdatamodeld */,
 				3A72FE31276976F800DC1895 /* keePeat */,
 				3A72FE30276976F800DC1895 /* Products */,
 			);
