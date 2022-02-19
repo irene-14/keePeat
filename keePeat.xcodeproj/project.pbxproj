@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3A3F2027C1724B00408F27 /* BBDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A3F1E27C1724B00408F27 /* BBDD.xcdatamodeld */; };
 		3A57A734278A451E005A8D74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57A733278A451E005A8D74 /* User.swift */; };
 		3A57A736278A5726005A8D74 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57A735278A5726005A8D74 /* Cell.swift */; };
 		3A6D6450278CCA04003FAB07 /* ViewControllerRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D644F278CCA04003FAB07 /* ViewControllerRegister.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3A3F1F27C1724B00408F27 /* BBDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BBDD.xcdatamodel; sourceTree = "<group>"; };
 		3A57A733278A451E005A8D74 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3A57A735278A5726005A8D74 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		3A6D644F278CCA04003FAB07 /* ViewControllerRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegister.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		3A72FE26276976F800DC1895 = {
 			isa = PBXGroup;
 			children = (
+				3A3A3F1E27C1724B00408F27 /* BBDD.xcdatamodeld */,
 				3A72FE31276976F800DC1895 /* keePeat */,
 				3A72FE30276976F800DC1895 /* Products */,
 			);
@@ -226,6 +229,7 @@
 				3AB25BAD278E3D5800E9A36D /* KeychainSecurity.swift in Sources */,
 				3AF9634A278CE9DE00348748 /* ViewControllerLocations.swift in Sources */,
 				3AECCEE92788EB2400B6E3D7 /* Extensions.swift in Sources */,
+				3A3A3F2027C1724B00408F27 /* BBDD.xcdatamodeld in Sources */,
 				3A95B0D22787BEAB00414A97 /* ViewControllerDetect.swift in Sources */,
 				3A95B0D42787C3B000414A97 /* turberaClasificador.mlmodel in Sources */,
 				3A86AC3E278A1663006B4CFF /* ViewControllerProfile.swift in Sources */,
@@ -460,6 +464,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A3A3F1E27C1724B00408F27 /* BBDD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A3A3F1F27C1724B00408F27 /* BBDD.xcdatamodel */,
+			);
+			currentVersion = 3A3A3F1F27C1724B00408F27 /* BBDD.xcdatamodel */;
+			path = BBDD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A72FE27276976F800DC1895 /* Project object */;
 }

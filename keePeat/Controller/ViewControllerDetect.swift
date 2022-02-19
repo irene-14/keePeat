@@ -8,6 +8,7 @@
 import UIKit
 import CoreML
 
+
 class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     @IBOutlet weak var imgViewFoto: UIImageView!
@@ -137,7 +138,6 @@ class ViewControllerDetect: UIViewController, UIImagePickerControllerDelegate & 
             
             classification = output.classLabel
             probability = String(format: "%.0f", output.classLabelProbs["turbera"]!*100)
-            
         }
         catch {
             print(error.localizedDescription)

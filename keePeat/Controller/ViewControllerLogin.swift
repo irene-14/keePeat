@@ -50,7 +50,10 @@ class ViewControllerLogin: UIViewController {
                 if searchUser.password == user.password
                 {
                     print("ÉXITO")
+                    
+                    // Get the UserDefaults instance
                     let defaults = UserDefaults.standard
+                    // Set the value for the given key
                     defaults.setValue(true, forKey:"loggedIn")
                     defaults.setValue(searchUser.name, forKey: "userName")
                     //let nextViewController = ViewControllerProfile()
